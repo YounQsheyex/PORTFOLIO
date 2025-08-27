@@ -68,7 +68,6 @@ const Contact = () => {
                 style={{ fontFamily: "Manrope,sans-serif" }}
                 className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]"
               >
-                
                 For more info, here’s my
                 <span className="text-[#ffffff] border-b-[1px] border-[#D3E97A]">
                   <a
@@ -217,7 +216,7 @@ const Contact = () => {
                 className="w-[140px] h-[54px] bg-[#D3E97A] text-[#0A0A0A] text-[16px] font-[700] px-[40px] py-[20px] flex items-center rounded-full cursor-pointer"
               >
                 {isSubmitting ? (
-                  <FadeLoader size={20} color="#0A0A0A" />
+                  <FadeLoader size={10} color="#0A0A0A" />
                 ) : (
                   "SUBMIT"
                 )}

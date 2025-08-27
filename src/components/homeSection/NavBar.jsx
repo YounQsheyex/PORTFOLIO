@@ -37,7 +37,7 @@ const NavBar = () => {
                 <a href="#work" style={{ fontFamily: "Inter, sans-serif" }}>
                   Work
                 </a>
-                <a href="about" style={{ fontFamily: "Inter, sans-serif" }}>
+                <a href="#about" style={{ fontFamily: "Inter, sans-serif" }}>
                   About
                 </a>
                 <a href="#contact" style={{ fontFamily: "Inter, sans-serif" }}>
