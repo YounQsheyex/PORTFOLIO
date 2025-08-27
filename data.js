@@ -23,7 +23,6 @@ export const data = [
     role: "Front-end Developer",
     live: "",
     git: "",
-    
   },
   {
     image: task,
@@ -35,5 +34,45 @@ export const data = [
     live: "",
     git: "",
     tag: "Conceptual Work",
+  },
+];
+
+export const xperience = [
+  {
+    title: "Freelance Developer",
+    details:
+      "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    year: "Nov 2023 — Present ",
+  },
+  {
+    title: "Front-End Intern",
+    details:
+      "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    year: "Sep 2023 — Nov 2023 ",
+    tag: "Ross Tech",
+  },
+];
+
+export const ability = [
+  {
+    title: "HTML",
+  },
+  {
+    title: "CSS",
+  },
+  {
+    title: "JAVASCRIPT",
+  },
+  {
+    title: "JQUERY",
+  },
+  {
+    title: "ACCESSIBILITY",
+  },
+  {
+    title: "FIGMA",
+  },
+  {
+    title: "TAILWIND CSS",
   },
 ];
