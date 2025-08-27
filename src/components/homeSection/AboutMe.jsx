@@ -6,7 +6,7 @@ import manBg from "../../assets/manbg.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="mt-10 lg:mt-0 w-full bg-black">
+    <div className="mt-10 lg:mt-0 w-full bg-black border-b-[1px] border-[#484848] py-[64px] lg:py-[80px]">
       <div className=" layout  flex flex-col items-center md:flex-row lg:flex-row lg:items-center ">
         <div className="mx-auto w-full lg:pb-[22px] flex-flex-col gap-[32px] lg:gap-[40px] lg:p-2">
           <div className="w-full flex flex-col items-center lg:items-start gap-[12px] lg:gap-[8px]">

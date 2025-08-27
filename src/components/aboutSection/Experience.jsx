@@ -1,9 +1,9 @@
 import React from "react";
-import { xperience } from "../../../data";
+import { xperience } from "../../../utils/data";
 
 const Experience = () => {
   return (
-    <div className="w-full mt-20 py-[80px]">
+    <div className="w-full mt-20 py-[80px] border-b-[1px] border-[#484848]">
       <div className="layout">
         <div className="w-full flex flex-col  gap-[16px] lg:flex-row lg:gap-[80px] justify-between items-start">
           <div className="w-full flex-1">

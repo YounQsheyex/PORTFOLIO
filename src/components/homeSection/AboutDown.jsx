@@ -1,9 +1,10 @@
 import React from "react";
 import manBg from "../../assets/manbg.jpg";
+import { Link } from "react-router-dom";
 
 const AboutDown = () => {
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full mx-auto border-b-[1px] border-[#484848] py-[64px] lg:py-[80px]">
       <div className="layout">
         <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-[50px]">
           <div className="w-full flex-1">
@@ -31,13 +32,15 @@ const AboutDown = () => {
               playing football, photography and playing Valorant. Learning more
               to improve skill.
             </p>
-            <a
-              href=""
-              style={{ fontFamily: "Manrope,sans-serif" }}
-              className="my-7 text-[#D3E97A] text-[14px] lg:text-[16px] border-b-[1px] border-[#d3e97a]"
-            >
-              MORE ABOUT ME
-            </a>
+            <Link to={"/about"}>
+              <a
+                href=""
+                style={{ fontFamily: "Manrope,sans-serif" }}
+                className="my-7 text-[#D3E97A] text-[14px] lg:text-[16px] border-b-[1px] border-[#d3e97a]"
+              >
+                MORE ABOUT ME
+              </a>
+            </Link>
           </div>
         </div>
         <div className="mt-5">

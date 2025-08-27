@@ -1,11 +1,11 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa6";
-import { data } from "../../../data";
+import { data } from "../../../utils/data";
 import { CgArrowTopRight } from "react-icons/cg";
 
 const Work = () => {
   return (
-    <div className="w-full bg-black mt-20">
+    <div className="w-full bg-black mt-20 border-b-[1px] border-[#484848] py-[64px] lg:py-[80px]">
       <div className="max-w-[1224px] mx-auto  px-4">
         <div className="w-full  mx-auto">
           <div className="max-w-[600px] flex flex-col items-start gap-[12px] lg:gap-[8px]">

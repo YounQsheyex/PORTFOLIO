@@ -1,9 +1,9 @@
 import React from "react";
-import { ability } from "../../../data";
+import { ability } from "../../../utils/data";
 
 const Capabilities = () => {
   return (
-    <div className="w-full mt-20">
+    <div className="w-full mt-20 border-b-[1px] border-[#484848]">
       <div className="layout">
         <div className="w-full py-[64px] flex flex-col gap-[12px] lg:flex-row lg:gap-[24px] justify-between items-start">
           <div className="w-full flex-1">

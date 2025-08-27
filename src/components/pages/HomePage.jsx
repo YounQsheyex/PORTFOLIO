@@ -10,9 +10,15 @@ const HomePage = () => {
     <div className="w-full bg-black p-4 mx-auto">
       <NavBar />
       <AboutMe />
-      <Work />
-      <AboutDown />
-      <Contact />
+      <section id="work">
+        <Work />
+      </section>
+      <section id="about">
+        <AboutDown />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 };

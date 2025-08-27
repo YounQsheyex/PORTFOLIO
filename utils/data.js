@@ -1,6 +1,6 @@
-import torri from "./src/assets/TorriGat.png";
-import shortly from "./src/assets/shortly.jpg";
-import task from "./src/assets/task.png";
+import torri from "../src/assets/TorriGat.png";
+import shortly from "../src/assets/shortly.jpg";
+import task from "../src/assets/task.png";
 
 export const data = [
   {

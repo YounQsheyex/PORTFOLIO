@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import manBg from "../../assets/manbg.jpg";
+import { RiDownload2Line } from "react-icons/ri";
 
 const AboutHero = () => {
   return (
@@ -33,13 +34,30 @@ const AboutHero = () => {
               playing football, photography and playing Valorant. Learning more
               to improve skill.
             </p>
-            <a
-              href=""
-              style={{ fontFamily: "Manrope,sans-serif" }}
-              className="my-7 text-[#D3E97A] text-[14px] lg:text-[16px] border-b-[1px] border-[#d3e97a]"
-            >
-              MORE ABOUT ME
-            </a>
+            <div className="mt-2 lg:mt-10 w-[332px] h-[48px] lg:w-[384px]  lg:h-[54px] flex items-center gap-[16px]">
+              <button className="bg-[#D3E97A]  w-[212px] h-[48px] lg:w-[224px] lg:h-[54px] rounded-full pr-[5px] pl-[12px] [20px] lg:pr-[6px] flex items-center justify-between cursor-pointer">
+                <p
+                  style={{ fontFamily: "Manrope" }}
+                  className=" gap-[12px] font-[700] text-[14px] lg:text-[16px] text-[#0A0A0A]"
+                >
+                  DOWNLOAD RESUME
+                </p>
+                <span className="w-[40px] h-[40px] bg-black rounded-full pt-[10px] py-[10px] flex justify-center items-center">
+                  <RiDownload2Line size={20} color="#ffffff" />
+                </span>
+              </button>
+
+              <div className="flex justify-center items-center w-[48px] h-[48px] lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]">
+                <a href="">
+                  <FaLinkedinIn size={30} color="#D3E97A" />
+                </a>
+              </div>
+              <div className="flex justify-center items-center w-[48px] h-[48px]  lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]">
+                <a href="">
+                  <FaGithub size={30} color="#D3E97A" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mt-20 w-full h-[343px] lg:h-[700px] object-cover rounded-[16px]">
