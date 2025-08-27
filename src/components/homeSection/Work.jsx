@@ -100,7 +100,7 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="w-[252px] lg:w-[284px] flex gap-[24px] items-center ">
-                      <a href="" className="border-b-[1px] border-[#d3e97a]">
+                      <a href={d.live} target="blank" className="border-b-[1px] border-[#d3e97a]">
                         <p
                           style={{ fontFamily: "Manrope, sans-serif" }}
                           className="flex items-center gap-[4px] font-[700] text-[14px] text-[#D3E97A]"
@@ -111,7 +111,7 @@ const Work = () => {
                           </span>
                         </p>
                       </a>
-                      <a href="" className="border-b-[1px] border-[#d3e97a]">
+                      <a href={d.git} target="blank" className="border-b-[1px] border-[#d3e97a]">
                         <p
                           style={{ fontFamily: "Manrope, sans-serif" }}
                           className="flex items-center gap-[4px] font-[700] text-[14px] text-[#D3E97A]"

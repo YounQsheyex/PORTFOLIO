@@ -32,14 +32,12 @@ const AboutDown = () => {
               playing football, photography and playing Valorant. Learning more
               to improve skill.
             </p>
-            <Link to={"/about"}>
-              <a
-                href=""
-                style={{ fontFamily: "Manrope,sans-serif" }}
-                className="my-7 text-[#D3E97A] text-[14px] lg:text-[16px] border-b-[1px] border-[#d3e97a]"
-              >
-                MORE ABOUT ME
-              </a>
+            <Link
+              to={"/about"}
+              style={{ fontFamily: "Manrope,sans-serif" }}
+              className="my-7 text-[#D3E97A] text-[14px] lg:text-[16px] border-b-[1px] border-[#d3e97a]"
+            >
+              MORE ABOUT ME
             </Link>
           </div>
         </div>

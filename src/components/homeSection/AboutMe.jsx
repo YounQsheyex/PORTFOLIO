@@ -35,10 +35,17 @@ const AboutMe = () => {
             </button>
 
             <div className="flex justify-center items-center w-[48px] h-[48px] lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]">
-              <FaLinkedinIn size={30} color="#D3E97A" />
+              <a
+                href="https://www.linkedin.com/in/younqsheyex-seyi-lawrence-585b6b272/"
+                target="blank"
+              >
+                <FaLinkedinIn size={30} color="#D3E97A" />
+              </a>
             </div>
             <div className="flex justify-center items-center w-[48px] h-[48px]  lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]">
-              <FaGithub size={30} color="#D3E97A" />
+              <a href="https://github.com/YounQsheyex" target="blank">
+                <FaGithub size={30} color="#D3E97A" />
+              </a>
             </div>
           </div>
         </div>

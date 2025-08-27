@@ -10,8 +10,8 @@ export const data = [
       "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
     year: "2023",
     role: "Front-end Developer",
-    live: "",
-    git: "",
+    live: "https://torri-gate-seyi.vercel.app/",
+    git: "https://github.com/YounQsheyex/torri-gate-frontend",
     tag: "Conceptual Work",
   },
   {
@@ -21,8 +21,8 @@ export const data = [
       "Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in  front-end development.",
     year: "2023",
     role: "Front-end Developer",
-    live: "",
-    git: "",
+    live: "https://shortly-by-seyi.vercel.app/",
+    git: "https://github.com/YounQsheyex/shortly",
   },
   {
     image: task,
@@ -31,8 +31,8 @@ export const data = [
       "Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.",
     year: "2023",
     role: "Front-end Developer",
-    live: "",
-    git: "",
+    live: "https://task-duty-seyi.vercel.app/",
+    git: "https://github.com/YounQsheyex/Task-Duty",
     tag: "Conceptual Work",
   },
 ];

@@ -68,26 +68,39 @@ const Contact = () => {
                 style={{ fontFamily: "Manrope,sans-serif" }}
                 className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]"
               >
-                {" "}
-                For more info, here’s my{" "}
+                
+                For more info, here’s my
                 <span className="text-[#ffffff] border-b-[1px] border-[#D3E97A]">
-                  <a href="" style={{ fontFamily: "Manrope,sans-serif" }}>
+                  <a
+                    href="https://drive.google.com/file/d/1MDQUv24cR6pP8xde0oXclerpd-4zkNAL/view"
+                    target="blank"
+                    style={{ fontFamily: "Manrope,sans-serif" }}
+                  >
                     resume
                   </a>
                 </span>
               </p>
             </div>
             <div className="w-[224px] flex justify-between">
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/younqsheyex-seyi-lawrence-585b6b272/"
+                target="blank"
+              >
                 <FaLinkedinIn size={30} color="#D3E97A" />
               </a>
-              <a href="">
+              <a href="https://github.com/YounQsheyex" target="blank">
                 <FaGithub size={30} color="#D3E97A" />
               </a>
-              <a href="">
+              <a
+                href="https://x.com/younqsheyex?s=21&t=u0zk0jI0voqCcJ_BaBInVQ"
+                target="blank"
+              >
                 <FaXTwitter size={30} color="#D3E97A" />
               </a>
-              <a href="">
+              <a
+                href="https://www.instagram.com/younqsheyex?igsh=bWR0bzMyeG81Yng5&utm_source=qr"
+                target="blank"
+              >
                 <BsInstagram size={30} color="#D3E97A" />
               </a>
             </div>
