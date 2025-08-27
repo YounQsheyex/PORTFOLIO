@@ -8,7 +8,7 @@ import Contact from "./components/homeSection/Contact";
 function App() {
   return (
     <>
-      <div className="w-full bg-black">
+      <div className="w-full bg-black p-4 mx-auto">
         <NavBar />
         <AboutMe />
         <Work />
