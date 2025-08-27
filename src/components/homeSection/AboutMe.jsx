@@ -3,6 +3,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { CgArrowTopRight } from "react-icons/cg";
 import manBg from "../../assets/manbg.jpg";
+import meG from "../../assets/meG.png";
+import meBlue from "../../assets/meblue.png";
 
 const AboutMe = () => {
   return (
@@ -17,7 +19,7 @@ const AboutMe = () => {
               style={{ fontFamily: "Manrope, sans-serif" }}
               className="w-full font-[400]  text-[16px] lg:text-[18px] lg:leading-[150%] text-[#C7C7C7]"
             >
-              A Sydney based front-end developer passionate about building
+              A Nigerian based front-end developer passionate about building
               accessible and user friendly websites.
             </p>
           </div>
@@ -51,9 +53,9 @@ const AboutMe = () => {
         </div>
 
         <img
-          src={manBg}
+          src={meG}
           alt=""
-          className="mt-10 w-[343px] h-[400px] lg:w-[600px] lg:h-[700px]  object-cover rounded-[16px]"
+          className="bg-[#C7C7C7] mt-10 w-[343px] h-[400px] lg:w-[600px] lg:h-[700px]  object-cover rounded-[16px]"
         />
       </div>
     </div>

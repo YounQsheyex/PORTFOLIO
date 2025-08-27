@@ -3,6 +3,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import manBg from "../../assets/manbg.jpg";
 import { RiDownload2Line } from "react-icons/ri";
+import grad from "../../assets/grad.png"
+import meblue from "../../assets/meblue.png"
 
 const AboutHero = () => {
   return (
@@ -26,16 +28,19 @@ const AboutHero = () => {
               style={{ fontFamily: "Manrope, sans-serif" }}
               className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7] leading-[150%]"
             >
-              I am a front-end developer based in Sydney looking for exciting
-              opportunities. Has Mechanical Engineering background. Likes to
-              focus on accessibility when developing. Passionate and curious
-              about solving problems. Currently, I’m exploring Reactjs, Webflow
-              and a bit of Designing. While I am not programming, I enjoy
-              playing football, photography and playing Valorant. Learning more
-              to improve skill.
+              I am a full-stack developer based in Nigeria looking for exciting
+              opportunities. Has Computer Science background. Likes to focus on
+              accessibility when developing. Passionate and curious about
+              solving problems. Currently, I’m exploring Reactjs, Webflow and a
+              bit of Designing. While I am not programming, I enjoy playing
+              football, 8 Ball pools and listening to music. Learning more to
+              improve skill.
             </p>
             <div className="mt-2 lg:mt-10 w-[332px] h-[48px] lg:w-[384px]  lg:h-[54px] flex items-center gap-[16px]">
-              <a href="https://drive.google.com/file/d/1MDQUv24cR6pP8xde0oXclerpd-4zkNAL/view?usp=sharing" target="blank">
+              <a
+                href="https://drive.google.com/file/d/1MDQUv24cR6pP8xde0oXclerpd-4zkNAL/view?usp=sharing"
+                target="blank"
+              >
                 <button className="bg-[#D3E97A]  w-[212px] h-[48px] lg:w-[224px] lg:h-[54px] rounded-full pr-[5px] pl-[12px] [20px] lg:pr-[6px] flex items-center justify-between cursor-pointer">
                   <p
                     style={{ fontFamily: "Manrope" }}
@@ -67,9 +72,9 @@ const AboutHero = () => {
         </div>
         <div className="mt-20 w-full h-[343px] lg:h-[700px] object-cover rounded-[16px]">
           <img
-            src={manBg}
+            src={grad}
             alt=""
-            className="w-full h-full object-cover rounded-[16px]"
+            className="bg-[#C7C7C7] w-full h-full object-contain rounded-[16px]"
           />
         </div>
       </div>

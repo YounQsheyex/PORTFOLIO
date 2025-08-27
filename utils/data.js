@@ -5,10 +5,11 @@ import task from "../src/assets/task.png";
 export const data = [
   {
     image: torri,
-    title: "Promotional landing page for our favorite show",
+    title:
+      "Full Web App to ease and bridge the app betwen landkords and tennats",
     details:
-      "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
-    year: "2023",
+      "Teamed up with a designer to breathe life into a promotional webpage for Torri-Gate, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, to tacle different agency fee and bring landlords and tennats closer.",
+    year: "2025",
     role: "Front-end Developer",
     live: "https://torri-gate-seyi.vercel.app/",
     git: "https://github.com/YounQsheyex/torri-gate-frontend",
@@ -16,20 +17,20 @@ export const data = [
   },
   {
     image: shortly,
-    title: "Promotional landing page for our favorite show",
+    title: "Landing page for shortening of any Url",
     details:
       "Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in  front-end development.",
-    year: "2023",
+    year: "2025",
     role: "Front-end Developer",
     live: "https://shortly-by-seyi.vercel.app/",
     git: "https://github.com/YounQsheyex/shortly",
   },
   {
     image: task,
-    title: "Promotional landing page for our favorite show",
+    title: "Landing page for basic crud operation for handking task",
     details:
       "Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.",
-    year: "2023",
+    year: "2025",
     role: "Front-end Developer",
     live: "https://task-duty-seyi.vercel.app/",
     git: "https://github.com/YounQsheyex/Task-Duty",

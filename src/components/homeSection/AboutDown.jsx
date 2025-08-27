@@ -1,6 +1,7 @@
 import React from "react";
 import manBg from "../../assets/manbg.jpg";
 import { Link } from "react-router-dom";
+import meblue from "../../assets/meblue.png";
 
 const AboutDown = () => {
   return (
@@ -17,20 +18,20 @@ const AboutDown = () => {
               style={{ fontFamily: "Manrope, sans-serif" }}
               className="hidden lg:block text-[32px] text-[#ffffff] font-[500] leading-[150%]"
             >
-              I am a front-end developer based in Sydney. <br /> Has Mechanical
-              Engineering background.
+              I am a front-end developer based in Nigeria. <br /> Has Mechanical
+              Computer Science.
             </h3>
             <p
               style={{ fontFamily: "Manrope, sans-serif" }}
               className="my-5 font-[400] text-[18px] text-[#C7C7C7] leading-[150%]"
             >
-              I am a front-end developer based in Sydney looking for exciting
-              opportunities. Has Mechanical Engineering background. Likes to
-              focus on accessibility when developing. Passionate and curious
-              about solving problems. Currently, I’m exploring Reactjs, Webflow
-              and a bit of Designing. While I am not programming, I enjoy
-              playing football, photography and playing Valorant. Learning more
-              to improve skill.
+              I am a full-stack developer based in Nigeria looking for exciting
+              opportunities. Has Computer Science background. Likes to focus on
+              accessibility when developing. Passionate and curious about
+              solving problems. Currently, I’m exploring Reactjs, Webflow and a
+              bit of Designing. While I am not programming, I enjoy playing
+              football, 8 Ball pools and listening to music. Learning more to
+              improve skill.
             </p>
             <Link
               to={"/about"}
@@ -43,9 +44,9 @@ const AboutDown = () => {
         </div>
         <div className="mt-5">
           <img
-            src={manBg}
+            src={meblue}
             alt=""
-            className="w-full h-[400px] object-cover rounded-[16px] lg:hidden"
+            className="bg-[#C7C7C7] w-full h-[400px] object-cover rounded-[16px] lg:hidden"
           />
         </div>
       </div>
