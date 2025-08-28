@@ -250,7 +250,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div>
+        <div className="mt-7 lg:mt-0">
           <p
             style={{ fontFamily: "Manrope,sans-serif" }}
             className="text-[#C7C7C7] text-[16px] font-[500]"
