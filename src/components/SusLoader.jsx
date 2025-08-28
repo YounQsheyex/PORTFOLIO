@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import { BounceLoader } from "react-spinners";
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.png";
 
-const SusLoader = ({height}) => {
+const SusLoader = ({ height }) => {
   return (
     <div
       style={{ height: height ? height : "100vh" }}
@@ -19,6 +19,6 @@ const SusLoader = ({height}) => {
       </div>
     </div>
   );
-}
+};
 
-export default SusLoader
+export default SusLoader;
