@@ -69,7 +69,7 @@ const Contact = () => {
                   style={{ fontFamily: "Manrope,sans-serif" }}
                   className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]"
                 >
-                  For more info, here’s my
+                  For more info, here’s my{" "}
                   <span className="text-[#ffffff] border-b-[1px] border-[#D3E97A]">
                     <a
                       href="https://drive.google.com/file/d/1MDQUv24cR6pP8xde0oXclerpd-4zkNAL/view"
@@ -255,7 +255,7 @@ const Contact = () => {
             style={{ fontFamily: "Manrope,sans-serif" }}
             className="text-[#C7C7C7] text-[16px] font-[500]"
           >
-            &copy; 2025OluwaseyiLawrence
+            &copy; 2025 OluwaseyiLawrence
           </p>
         </div>
       </div>

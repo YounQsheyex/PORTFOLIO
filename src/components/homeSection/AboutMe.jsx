@@ -26,7 +26,7 @@ const AboutMe = () => {
           </div>
           <div className="mt-2 lg:mt-10 w-[291px] h-[48px] lg:w-[327px] lg:h-[54px] flex items-center gap-[16px]">
             <a href="#contact">
-              <button className="bg-[#D3E97A] flex items-center hover:gap-0 hover:justify-between gap-[12px] w-[163px] h-[48px] lg:w-[187px] lg:h-[54px] rounded-full pr-[5px] pl-[12px] lg:pt-[20px] lg:pb-[20px] lg:pr-[6px] lg:pl-[24px]  group transition-all duration-300 cursor-pointer">
+              <button className="bg-[#D3E97A] flex items-center hover:gap-0 hover:justify-between gap-[12px] w-[163px] h-[48px] lg:w-[187px] lg:h-[54px] rounded-full p-2 lg:p-4 group transition-all duration-300 cursor-pointer">
                 <p
                   style={{ fontFamily: "Manrope" }}
                   className="font-[700] text-[14px] lg:text-[16px] text-[#0A0A0A]"

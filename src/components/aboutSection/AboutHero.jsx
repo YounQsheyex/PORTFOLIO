@@ -41,7 +41,7 @@ const AboutHero = () => {
                 href="https://drive.google.com/file/d/1MDQUv24cR6pP8xde0oXclerpd-4zkNAL/view?usp=sharing"
                 target="blank"
               >
-                <button className="bg-[#D3E97A]  w-[212px] h-[48px] lg:w-[224px] lg:h-[54px] rounded-full pr-[5px] pl-[12px] [20px] lg:pr-[6px] flex items-center gap-2 hover:gap-0 hover:justify-between cursor-pointer group transition-all duration-300">
+                <button className="bg-[#D3E97A]  w-[212px] h-[48px] lg:w-[224px] lg:h-[54px] rounded-full p-2 flex items-center gap-2 hover:gap-0 hover:justify-between cursor-pointer group transition-all duration-300">
                   <p
                     style={{ fontFamily: "Manrope" }}
                     className=" gap-[12px] font-[700] text-[14px] lg:text-[16px] text-[#0A0A0A]"
