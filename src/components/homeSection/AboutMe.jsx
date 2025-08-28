@@ -5,12 +5,13 @@ import { CgArrowTopRight } from "react-icons/cg";
 import manBg from "../../assets/manbg.jpg";
 import meG from "../../assets/meG.png";
 import meBlue from "../../assets/meblue.png";
+import pass from "../../assets/pass.png"
 
 const AboutMe = () => {
   return (
     <div className="mt-10 lg:mt-0 w-full bg-black border-b-[1px] border-[#484848] py-[64px] lg:py-[80px]">
       <div className=" layout  flex flex-col items-center md:flex-row lg:flex-row lg:items-center ">
-        <div className="mx-auto w-full lg:pb-[22px] flex-flex-col gap-[32px] lg:gap-[40px] lg:p-2">
+        <div className="flex-1 mx-auto w-full lg:pb-[22px] flex-flex-col gap-[32px] lg:gap-[40px] lg:p-2">
           <div className="w-full flex flex-col items-center lg:items-start gap-[12px] lg:gap-[8px]">
             <h1 className="w-full  text-[57px] lg:text-[101px] leading-[100%] lg:leading-[90%] text-[#FFFFFF] font-[400]">
               hi, i am oluwaseyi lawrence
@@ -52,11 +53,14 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <img
-          src={meG}
-          alt=""
-          className="bg-[#C7C7C7] mt-10 w-[343px] h-[400px] lg:w-[600px] lg:h-[700px]  object-cover rounded-[16px]"
-        />
+        <div className="w-full flex-1 bg-[#C7C7C7] rounded-[16px] mt-10 lg:mt-0">
+          {" "}
+          <img
+            src={pass}
+            alt=""
+            className="w-[343px] h-[400px] lg:w-[600px] lg:h-[700px]  object-cover rounded-[16px]"
+          />
+        </div>
       </div>
     </div>
   );

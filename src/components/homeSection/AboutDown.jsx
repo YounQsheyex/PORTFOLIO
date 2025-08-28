@@ -2,6 +2,7 @@ import React from "react";
 import manBg from "../../assets/manbg.jpg";
 import { Link } from "react-router-dom";
 import meblue from "../../assets/meblue.png";
+import pass from "../../assets/pass.png"
 
 const AboutDown = () => {
   return (
@@ -44,7 +45,7 @@ const AboutDown = () => {
         </div>
         <div className="mt-5">
           <img
-            src={meblue}
+            src={pass}
             alt=""
             className="bg-[#C7C7C7] w-full h-[400px] object-cover rounded-[16px] lg:hidden"
           />
