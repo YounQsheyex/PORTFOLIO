@@ -25,19 +25,25 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="mt-2 lg:mt-10 w-[291px] h-[48px] lg:w-[327px] lg:h-[54px] flex items-center gap-[16px]">
-            <button className="bg-[#D3E97A] flex items-center justify-between gap-[12px] w-[163px] h-[48px] lg:w-[187px] lg:h-[54px] rounded-full pr-[5px] pl-[12px] lg:pt-[20px] lg:pb-[20px] lg:pr-[6px] lg:pl-[24px]">
-              <p
-                style={{ fontFamily: "Manrope" }}
-                className="font-[700] text-[14px] lg:text-[16px] text-[#0A0A0A]"
-              >
-                CONTACT ME
-              </p>
-              <span className="w-[40px] h-[40px] bg-black rounded-full">
-                <CgArrowTopRight size={40} color="#ffffff" />
-              </span>
-            </button>
+            <a href="#contact">
+              <button className="bg-[#D3E97A] flex items-center hover:gap-0 hover:justify-between gap-[12px] w-[163px] h-[48px] lg:w-[187px] lg:h-[54px] rounded-full pr-[5px] pl-[12px] lg:pt-[20px] lg:pb-[20px] lg:pr-[6px] lg:pl-[24px]  group transition-all duration-300 cursor-pointer">
+                <p
+                  style={{ fontFamily: "Manrope" }}
+                  className="font-[700] text-[14px] lg:text-[16px] text-[#0A0A0A]"
+                >
+                  CONTACT ME
+                </p>
+                <span className="w-[10px] h-[10px] bg-black rounded-full  group-hover:w-[40px] group-hover:h-[40px]">
+                  <CgArrowTopRight
+                    size={40}
+                    color="#ffffff"
+                    className="opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300"
+                  />
+                </span>
+              </button>
+            </a>
 
-            <div className="flex justify-center items-center w-[48px] h-[48px] lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]">
+            <div className="flex justify-center items-center w-[48px] h-[48px] lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222] hover:bg-[#4a4747]">
               <a
                 href="https://www.linkedin.com/in/younqsheyex-seyi-lawrence-585b6b272/"
                 target="blank"
@@ -45,7 +51,7 @@ const AboutMe = () => {
                 <FaLinkedinIn size={30} color="#D3E97A" />
               </a>
             </div>
-            <div className="flex justify-center items-center w-[48px] h-[48px]  lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]">
+            <div className="flex justify-center items-center w-[48px] h-[48px]  lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]  hover:bg-[#4a4747]">
               <a href="https://github.com/YounQsheyex" target="blank">
                 <FaGithub size={30} color="#D3E97A" />
               </a>

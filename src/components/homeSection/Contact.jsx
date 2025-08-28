@@ -47,62 +47,72 @@ const Contact = () => {
     <div className="w-full mx-auto mt-30 py-[64px] lg:py-[80px]">
       <div className="layout">
         <div className="w-full flex flex-col lg:flex-row lg:justify-between items-start">
-          <div className="w-full flex-1">
+          <div className="w-full flex-1 ">
             <div>
-              <h2 className="font-[400] text-[43px] text-[#ffffff] tracking-[-2%] leading-[100%]">
-                Let’s connect
-              </h2>
-              <p
-                style={{ fontFamily: "Manrope,sans-serif" }}
-                className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]"
-              >
-                Say hello at{" "}
-                <span
+              <div>
+                <h2 className="font-[400] text-[43px] text-[#ffffff] tracking-[-2%] leading-[100%]">
+                  Let’s connect
+                </h2>
+                <p
                   style={{ fontFamily: "Manrope,sans-serif" }}
-                  className="text-[#ffffff] border-b-[1px] border-[#D3E97A]"
+                  className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]"
                 >
-                  younqsheyex@gmail.com
-                </span>
-              </p>
+                  Say hello at{" "}
+                  <span
+                    style={{ fontFamily: "Manrope,sans-serif" }}
+                    className="text-[#ffffff] border-b-[1px] border-[#D3E97A]"
+                  >
+                    younqsheyex@gmail.com
+                  </span>
+                </p>
+                <p
+                  style={{ fontFamily: "Manrope,sans-serif" }}
+                  className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]"
+                >
+                  For more info, here’s my
+                  <span className="text-[#ffffff] border-b-[1px] border-[#D3E97A]">
+                    <a
+                      href="https://drive.google.com/file/d/1MDQUv24cR6pP8xde0oXclerpd-4zkNAL/view"
+                      target="blank"
+                      style={{ fontFamily: "Manrope,sans-serif" }}
+                    >
+                      resume
+                    </a>
+                  </span>
+                </p>
+              </div>
+              <div className="w-[224px] flex justify-between">
+                <a
+                  href="https://www.linkedin.com/in/younqsheyex-seyi-lawrence-585b6b272/"
+                  target="blank"
+                >
+                  <FaLinkedinIn size={30} color="#D3E97A" />
+                </a>
+                <a href="https://github.com/YounQsheyex" target="blank">
+                  <FaGithub size={30} color="#D3E97A" />
+                </a>
+                <a
+                  href="https://x.com/younqsheyex?s=21&t=u0zk0jI0voqCcJ_BaBInVQ"
+                  target="blank"
+                >
+                  <FaXTwitter size={30} color="#D3E97A" />
+                </a>
+                <a
+                  href="https://www.instagram.com/younqsheyex?igsh=bWR0bzMyeG81Yng5&utm_source=qr"
+                  target="blank"
+                >
+                  <BsInstagram size={30} color="#D3E97A" />
+                </a>
+              </div>
+            </div>
+            {/* <div>
               <p
                 style={{ fontFamily: "Manrope,sans-serif" }}
-                className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]"
+                className="text-[#C7C7C7] text-[16px] font-[500]"
               >
-                For more info, here’s my
-                <span className="text-[#ffffff] border-b-[1px] border-[#D3E97A]">
-                  <a
-                    href="https://drive.google.com/file/d/1MDQUv24cR6pP8xde0oXclerpd-4zkNAL/view"
-                    target="blank"
-                    style={{ fontFamily: "Manrope,sans-serif" }}
-                  >
-                    resume
-                  </a>
-                </span>
+                2025OluwaseyiLawrence
               </p>
-            </div>
-            <div className="w-[224px] flex justify-between">
-              <a
-                href="https://www.linkedin.com/in/younqsheyex-seyi-lawrence-585b6b272/"
-                target="blank"
-              >
-                <FaLinkedinIn size={30} color="#D3E97A" />
-              </a>
-              <a href="https://github.com/YounQsheyex" target="blank">
-                <FaGithub size={30} color="#D3E97A" />
-              </a>
-              <a
-                href="https://x.com/younqsheyex?s=21&t=u0zk0jI0voqCcJ_BaBInVQ"
-                target="blank"
-              >
-                <FaXTwitter size={30} color="#D3E97A" />
-              </a>
-              <a
-                href="https://www.instagram.com/younqsheyex?igsh=bWR0bzMyeG81Yng5&utm_source=qr"
-                target="blank"
-              >
-                <BsInstagram size={30} color="#D3E97A" />
-              </a>
-            </div>
+            </div> */}
           </div>
           <div className="mt-10 lg:mt-0 w-full flex-1">
             <form
@@ -226,7 +236,7 @@ const Contact = () => {
                   style={{ fontFamily: "Manrope,sans-serif" }}
                   className="text-[#D3E97A] mt-2"
                 >
-                  Thanks! Your message has been sent.
+                  Thanks!! Your message has been sent.
                 </p>
               )}
               {status === "ERROR" && (
@@ -239,6 +249,14 @@ const Contact = () => {
               )}
             </form>
           </div>
+        </div>
+        <div>
+          <p
+            style={{ fontFamily: "Manrope,sans-serif" }}
+            className="text-[#C7C7C7] text-[16px] font-[500]"
+          >
+            &copy; 2025OluwaseyiLawrence
+          </p>
         </div>
       </div>
     </div>

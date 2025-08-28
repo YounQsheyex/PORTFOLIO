@@ -41,20 +41,24 @@ const AboutHero = () => {
                 href="https://drive.google.com/file/d/1MDQUv24cR6pP8xde0oXclerpd-4zkNAL/view?usp=sharing"
                 target="blank"
               >
-                <button className="bg-[#D3E97A]  w-[212px] h-[48px] lg:w-[224px] lg:h-[54px] rounded-full pr-[5px] pl-[12px] [20px] lg:pr-[6px] flex items-center justify-between cursor-pointer">
+                <button className="bg-[#D3E97A]  w-[212px] h-[48px] lg:w-[224px] lg:h-[54px] rounded-full pr-[5px] pl-[12px] [20px] lg:pr-[6px] flex items-center gap-2 hover:gap-0 hover:justify-between cursor-pointer group transition-all duration-300">
                   <p
                     style={{ fontFamily: "Manrope" }}
                     className=" gap-[12px] font-[700] text-[14px] lg:text-[16px] text-[#0A0A0A]"
                   >
                     DOWNLOAD RESUME
                   </p>
-                  <span className="w-[40px] h-[40px] bg-black rounded-full pt-[10px] py-[10px] flex justify-center items-center">
-                    <RiDownload2Line size={20} color="#ffffff" />
+                  <span className="w-[10px] h-[10px] bg-black rounded-full flex justify-center items-center group-hover:w-[40px] group-hover:h-[40px]">
+                    <RiDownload2Line
+                      size={20}
+                      color="#ffffff"
+                      className="opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300"
+                    />
                   </span>
                 </button>
               </a>
 
-              <div className="flex justify-center items-center w-[48px] h-[48px] lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]">
+              <div className="flex justify-center items-center w-[48px] h-[48px] lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]  hover:bg-[#4a4747]">
                 <a
                   href="https://www.linkedin.com/in/younqsheyex-seyi-lawrence-585b6b272/"
                   target="blank"
@@ -62,7 +66,7 @@ const AboutHero = () => {
                   <FaLinkedinIn size={30} color="#D3E97A" />
                 </a>
               </div>
-              <div className="flex justify-center items-center w-[48px] h-[48px]  lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]">
+              <div className="flex justify-center items-center w-[48px] h-[48px]  lg:w-[54px] lg:h-[54px]  rounded-full bg-[#222222]  hover:bg-[#4a4747]">
                 <a href="https://github.com/YounQsheyex" target="blank">
                   <FaGithub size={30} color="#D3E97A" />
                 </a>

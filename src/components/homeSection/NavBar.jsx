@@ -8,19 +8,31 @@ const NavBar = () => {
       <div className="layout lg:px-[60px] lg:py-[24px] flex justify-between items-center">
         <div className="w-full">
           <Link to={"/"}>
-            <h1 className="font-[Bebas-Neue] font-[400] text-[#C7C7C7] text-[32px]">
+            <h1 className="font-[Bebas-Neue] font-[400] text-[#C7C7C7] text-[32px]  hover:text-[#D3E97A]">
               OLUWASEYI LAWRENCE
             </h1>
           </Link>
         </div>
-        <div className="hidden md:flex justify-between gap-[32px] items-center font-[500] text-[16px] text-[#C7C7C7] ">
-          <a href="#work" style={{ fontFamily: "Inter, sans-serif" }}>
+        <div className="hidden md:flex justify-between gap-[32px] items-center font-[500] text-[16px] text-[#C7C7C7]">
+          <a
+            href="#work"
+            style={{ fontFamily: "Inter, sans-serif" }}
+            className=" hover:text-[#D3E97A] hover:underline "
+          >
             Work
           </a>
-          <a href="#about" style={{ fontFamily: "Inter, sans-serif" }}>
+          <a
+            href="#about"
+            style={{ fontFamily: "Inter, sans-serif" }}
+            className=" hover:text-[#D3E97A] hover:underline "
+          >
             About
           </a>
-          <a href="#contact" style={{ fontFamily: "Inter, sans-serif" }}>
+          <a
+            href="#contact"
+            style={{ fontFamily: "Inter, sans-serif" }}
+            className=" hover:text-[#D3E97A] hover:underline "
+          >
             Contact
           </a>
         </div>
