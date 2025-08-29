@@ -3,8 +3,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import manBg from "../../assets/manbg.jpg";
 import { RiDownload2Line } from "react-icons/ri";
-import grad from "../../assets/grad.png"
-import meblue from "../../assets/meblue.png"
+import grad from "../../assets/grad.png";
+import meblue from "../../assets/meblue.png";
 
 const AboutHero = () => {
   return (
@@ -21,8 +21,8 @@ const AboutHero = () => {
               style={{ fontFamily: "Manrope, sans-serif" }}
               className="text-[24px] lg:text-[32px] text-[#ffffff] font-[500] leading-[150%]"
             >
-              I am a front-end developer based in Sydney. <br /> Has Mechanical
-              Engineering background.
+              I am a front-end developer based in Nigeria. <br /> Has Computer
+              Science background.
             </h3>
             <p
               style={{ fontFamily: "Manrope, sans-serif" }}
